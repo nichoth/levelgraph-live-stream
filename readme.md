@@ -29,4 +29,4 @@ graphdb.put({ subject: 'loki', predicate: 'mythology', object: 'norse' });
 
 ### livefeed(leveldb, triple, [opts]) => readable stream
 
-Pass in the level or sublevel instance used by levelgraph and a triple. The opts arg is passed to [level-live-stream](https://github.com/dominictarr/level-live-stream). Return a readable stream the emits objects.
+Pass in the level or sublevel instance used by levelgraph and a triple. The opts arg is passed to [level-live-stream](https://github.com/dominictarr/level-live-stream). Return a readable stream that emits objects.
