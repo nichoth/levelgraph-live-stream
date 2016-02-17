@@ -1,9 +1,9 @@
 var db = require('level-test')()('testdb');
 var graphdb = require('levelgraph')(db);
-var livefeed = require('../feed.js');
+var livefeed = require('../');
 var through = require('through2');
 
-livefeed(db, { predicate: 'mythology' })
+livefeed(db, { predicate: 'mythology' }, { old: false })
   .pipe(through.obj((data, enc, cb) => {
     cb(null, JSON.stringify(data, null, 2));
   }))

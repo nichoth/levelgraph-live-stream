@@ -13,5 +13,35 @@
   },
   "devDependencies": {
     "level-test": "^2.0.1"
-  }
+  },
+  "name": "levelgraph-live-stream",
+  "version": "0.0.0",
+  "description": "Live stream a levelgraph query",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/levelgraph-live-stream.git"
+  },
+  "keywords": [
+    "levelgraph",
+    "level",
+    "levelup",
+    "leveldb",
+    "stream",
+    "query",
+    "live",
+    "graph"
+  ],
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/levelgraph-live-stream/issues"
+  },
+  "homepage": "https://github.com/nichoth/levelgraph-live-stream#readme"
 }
